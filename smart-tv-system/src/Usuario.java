@@ -3,15 +3,13 @@ public class Usuario {
         
         SmartTv smartTv = new SmartTv();
 
-        smartTv.diminuirVolume();
-
-        smartTv.mudarCanal(30);
-
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
         smartTv.ligarTv();
-
-        System.out.println("A tv está ligada: " + smartTv.ligada);
-        System.out.println("Volume da tv: " + smartTv.volume);
-        System.out.println("Em que canal a tv está: " + smartTv.canal);
-
+        smartTv.mudarCanal(30);
+        
+        System.out.println("A tv está ligada? " + smartTv.ligada);
+        System.out.println("O volume da tv está em: " + smartTv.volume);
+        System.out.println("A tv está no canal: " + smartTv.canal);
     }
 }
