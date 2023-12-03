@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="MinhaClasse/src"/>
+	<classpathentry kind="src" path="smart-tv-system/src"/>
+	<classpathentry kind="src" path="tipos-variaveis/src"/>
+	<classpathentry kind="output" path="MinhaClasse/bin"/>
+</classpath>
